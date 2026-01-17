@@ -6,7 +6,6 @@ keywords: ZingTo Image Scoring, Image Rating Tool, AI Image Scoring, Desktop Ima
 ---
 
 <!-- SEO关键：语义化标签 + 结构化数据 + 基础样式 -->
-<!DOCTYPE html>
 <html lang="en"> <!-- 明确语言，帮助Google识别 -->
 <head>
   <meta charset="UTF-8">
@@ -51,7 +50,7 @@ keywords: ZingTo Image Scoring, Image Rating Tool, AI Image Scoring, Desktop Ima
   <header class="title-container">
     <h1>ZingTo Image Scoring - Image Rating Tool</h1>
     <!-- Logo添加alt属性（SEO关键：图片可被Google索引） -->
-    <img src="https://mwp1981.github.io/assets/images/logo.png" alt="ZingTo Image Scoring Logo" class="logo">
+    <img src="https://mwp1981.github.io/assets/images/kutu.png" alt="ZingTo Image Scoring Logo" class="logo">
   </header>
 
   <!-- 主内容区：语义化标签，Google优先抓取 -->
@@ -93,7 +92,7 @@ keywords: ZingTo Image Scoring, Image Rating Tool, AI Image Scoring, Desktop Ima
   <!-- 页脚：补充联系/版权，提升信任度 -->
   <footer style="margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #eee; text-align: center;">
     <p>© 2026 ZingTo Image Scoring - All Rights Reserved</p>
-    <p><a href="https://mwp1981.github.io/">Home</a> | <a href="https://mwp1981.github.io/categories/">Categories</a></p>
+    <p><a href="https://mwp1981.github.io/">Home</a></p>
   </footer>
 </body>
 </html>
