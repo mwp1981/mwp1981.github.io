@@ -3,16 +3,16 @@ layout: default
 title: ZingTo Image Scoring - Image Rating Tool
 ---
 
-<!-- 完整样式：Logo同行 + 博文超链接 + 整体排版 -->
+<!-- 核心样式：Logo增大1倍 + 同行布局 + 博文超链接 + 整体排版 -->
 <style>
   /* 隐藏主题冗余元素 */
   .site-title, .site-description, .page-footer .contact-list { display: none !important; }
   
-  /* 标题+Logo同行容器：核心实现同行、行末显示 */
+  /* 标题+Logo同行容器：保持行末显示，适配Logo增大后的垂直居中 */
   .title-logo-container {
     display: flex;
-    justify-content: space-between; /* 文字左，Logo右（行末） */
-    align-items: center; /* 垂直居中，尺寸匹配 */
+    justify-content: space-between;
+    align-items: center; /* 确保增大后的Logo仍与标题垂直居中 */
     max-width: 900px;
     margin: 2rem auto;
     padding: 0 1rem;
@@ -22,38 +22,19 @@ title: ZingTo Image Scoring - Image Rating Tool
     color: #24292e;
     margin: 0;
   }
-  /* Logo尺寸匹配文字 */
+  /* Logo增大1倍：原1.8rem → 3.6rem，宽度自动保持比例 */
   .title-logo {
-    height: 1.8rem; /* 和标题字号一致 */
+    height: 3.6rem; /* 增大1倍的核心修改 */
     width: auto;
     margin-left: 1rem;
   }
 
-  /* 页面主容器 */
+  /* 页面主容器 + 模块样式 */
   .page-content {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1rem 2rem;
     line-height: 1.8;
-  }
-
-  /* 博文超链接样式（核心：恢复可点击+悬浮下划线） */
-  .post-title-link {
-    color: #0366d6; /* 蓝色链接色 */
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 600;
-  }
-  .post-title-link:hover {
-    text-decoration: underline; /* 悬浮下划线，提示可点击 */
-  }
-
-  /* 博文摘要+模块标题样式 */
-  .post-excerpt {
-    color: #333;
-    margin: 0.5rem 0 1.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #eee;
   }
   .module-heading {
     font-size: 1.4rem;
@@ -62,21 +43,38 @@ title: ZingTo Image Scoring - Image Rating Tool
     border-bottom: 1px solid #eee;
     padding-bottom: 0.5rem;
   }
+
+  /* 博文超链接样式（恢复可点击） */
+  .post-title-link {
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .post-title-link:hover {
+    text-decoration: underline;
+  }
+  .post-excerpt {
+    color: #333;
+    margin: 0.5rem 0 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
 </style>
 
-<!-- 标题+Logo同行区域（保留行末Logo） -->
+<!-- 标题+增大1倍的Logo同行区域 -->
 <div class="title-logo-container">
   <h1 class="main-title">ZingTo Image Scoring - Image Rating Tool</h1>
+  <!-- Logo图片：路径需匹配仓库中上传的位置 -->
   <img src="{{ site.baseurl }}/assets/images/kutu.png" alt="ZingTo Logo" class="title-logo">
 </div>
 
-<!-- 主内容容器 -->
+<!-- 主内容容器（规整排版） -->
 <div class="page-content">
-  <!-- 最新博文模块（恢复超链接核心代码） -->
+  <!-- 最新博文模块（恢复超链接） -->
   <h2 class="module-heading">📝 最新博文</h2>
   {% if site.posts.size > 0 %}
     {% for post in site.posts limit: 10 %}
-      <!-- 恢复超链接：点击标题跳转到博文详情页 -->
       <a href="{{ site.baseurl }}{{ post.url }}" class="post-title-link">{{ post.title }}</a>
       <div class="post-excerpt">
         {{ post.excerpt | strip_html | truncate: 180 }}
