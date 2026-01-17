@@ -1,5 +1,9 @@
 ZingTo Image Scoring - User Guide
 
+📥 Download
+
+Get the official app by searching for Zingto on the Microsoft Store.
+
 📋 Overview
 
 A standalone desktop application for image scoring, frame capture, and photo-to-video creation. Key features:
@@ -141,6 +145,4 @@ User Responsibilities for FFmpeg Mode
 
 Disclaimer: We assume no liability for issues arising from your download, configuration, or use of FFmpeg. For FFmpeg license questions, contact the FFmpeg project directly.
 
-📥 Download
 
-Get the official app by searching for Zingto on the Microsoft Store.
