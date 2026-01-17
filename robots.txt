@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mwp1981.github.io/sitemap.xml
