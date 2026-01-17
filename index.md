@@ -62,7 +62,7 @@ title: ZingTo Image Scoring - Image Rating Tool
 <div class="title-logo-container">
   <h1 class="main-title">ZingTo Image Scoring - Image Rating Tool</h1>
   <!-- Logo图片：行末显示，尺寸匹配文字（需确保图片路径正确） -->
-  <img src="{{ site.baseurl }}/assets/images/logo.png" alt="ZingTo Logo" class="title-logo">
+  <img src="{{ site.baseurl }}/assets/images/kutu.png" alt="ZingTo Logo" class="title-logo">
 </div>
 
 <!-- 页面主内容容器 -->
