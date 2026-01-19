@@ -52,7 +52,7 @@ Select unwanted category images and click the **“Delete Selected”** button t
 <p style="text-align: center; margin: 1rem 0;">
   <img src="/assets/images/zingto_step4_delete_selected.png" alt="Deleting unwanted images" width="700" style="height: auto; border: 1px solid #eee; border-radius: 6px;">
 </p>
-<p style="color: #6a737d; font-size: 0.9rem; text-align: center; margin-top: -1rem;">Figure 5: Deleting unwanted low-score images</p>
+<p style="color: #6a737d; font-size: 0.9rem; text-align: center; margin-top: -1rem;">Figure 5: Deleting unwanted category images</p>
 
 ### Step 5: Filter High-Score Images
 The score filter has a default threshold of 6.5. Adjust this value to refine your selection: here, we set it to 7.9 to retain only the top 20 highest-rated images. Once filtered, right-click the list and choose **“Save Images As”** to store the high-quality pictures in a new folder for easy access.
