@@ -2,7 +2,7 @@
 Do you ever feel overwhelmed by the sheer number of photos you’ve taken, struggling to choose just a few to share on social media? Does endless scrolling leave you indecisive and unsure which shots are truly your best? **Zingto Image Scoring** is here to help—offering a smart, efficient way to evaluate your images and take the guesswork out of selecting the finest ones. This AI-driven **image rating tool** simplifies photo culling for photographers, content creators, and casual users alike.
 
 ## About Zingto AI Image Scoring Model
-The Zingto AI Image Scoring general-purpose model is highly versatile, supporting multiple photography categories including **landscapes, portraits, animals, architecture, and still life**. It leverages advanced computer vision algorithms to analyze image quality, composition, color harmony, and detail clarity—delivering objective scores to streamline your photo selection workflow.
+The Zingto AI Image Scoring general-purpose model is highly versatile, supporting multiple photography categories including **landscapes, portraits, animals, architecture, and still life**. 
 
 ## Tutorial: Batch Photo Scoring with Zingto (Using Pixabay Free Images)
 In this tutorial, we use free, copyright-free stock images from **Pixabay** (a popular free stock photo platform) for demonstration. Follow these steps to batch-score and filter high-quality images with Zingto:
@@ -40,7 +40,7 @@ Navigate to the **“Image List”** section. Right-click to open the context me
 - Sort images by score (descending/ascending) to prioritize top-quality shots
 - Sort by image name for organized file management
 
-Select unwanted low-score images and click the **“Delete Selected”** button to remove them from the working list.
+Select unwanted category images and click the **“Delete Selected”** button to remove them from the working list.
 
 <!-- Step 4 第一张图：插入到Step4文字后 -->
 <p style="text-align: center; margin: 1.5rem 0;">
