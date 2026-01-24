@@ -1,11 +1,10 @@
+Related Keywords
+AI Image Scoring, AI Image Rating, Standalone Desktop Image Scoring Application, Desktop AI Image Rating Software, Batch Image Analysis with AI, AI Photo Culling Tool for Desktop, Offline AI Image Rating
 ZingTo Image Scoring - User Guide
 
 📥 Download
 
 Get the official app by searching for Zingto on the Microsoft Store.
-
-## Related Keywords
-AI Image Scoring, AI Image Rating, Standalone Desktop Image Scoring Application, Desktop AI Image Rating Software, Batch Image Analysis with AI, AI Photo Culling Tool for Desktop, Offline AI Image Rating
 
 📋 Overview
 
