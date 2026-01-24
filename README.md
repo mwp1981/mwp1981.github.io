@@ -145,4 +145,6 @@ User Responsibilities for FFmpeg Mode
 
 Disclaimer: We assume no liability for issues arising from your download, configuration, or use of FFmpeg. For FFmpeg license questions, contact the FFmpeg project directly.
 
+Related Keywords
 
+#ZingtoImageScoring #AIImageScoring #PhotoCullingTool #BatchImageAnalysis #ImageRatingSoftware #AIforPhotographers #DesktopImageScoring
