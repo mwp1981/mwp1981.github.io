@@ -65,17 +65,17 @@ After the frame capture is completed, switch to the "Image Scoring" module tab, 
 3. Screen target scene frames: Browse the sorted Image List to locate and screen out the images that meet the 3 core objectives mentioned earlier. The 3 example images (including the optimal frames of the target scenes) obtained after my actual operation are as follows for reference (the actual results are subject to the personal operating environment):
 
 <p style="text-align: center; margin: 1.5rem 0;">
-  <img src="/assets/images/zingto_frame_capture_module_Screenshot_1.jpg" alt="the girl in the dress jumping to the highest point" width="700" style="height: auto; border: 1px solid #eee; border-radius: 6px;">
+  <img src="/assets/images/zingto_frame_capture_module_screenshot_1.jpg" alt="the girl in the dress jumping to the highest point" width="700" style="height: auto; border: 1px solid #eee; border-radius: 6px;">
 </p>
 <p style="color: #6a737d; font-size: 0.9rem; text-align: center; margin-top: -1rem; margin-bottom: 1.5rem;">Figure 4: the girl in the dress jumping to the highest point</p>
 
 <p style="text-align: center; margin: 1.5rem 0;">
-  <img src="/assets/images/zingto_frame_capture_module_Screenshot_2.jpg" alt="the girl in jeans jumping to the highest point" width="700" style="height: auto; border: 1px solid #eee; border-radius: 6px;">
+  <img src="/assets/images/zingto_frame_capture_module_screenshot_2.jpg" alt="the girl in jeans jumping to the highest point" width="700" style="height: auto; border: 1px solid #eee; border-radius: 6px;">
 </p>
 <p style="color: #6a737d; font-size: 0.9rem; text-align: center; margin-top: -1rem; margin-bottom: 1.5rem;">Figure 5: the girl in jeans jumping to the highest point</p>
 
 <p style="text-align: center; margin: 1.5rem 0;">
-  <img src="/assets/images/zingto_frame_capture_module_Screenshot_3.jpg" alt="both girls jumping at the same time" width="700" style="height: auto; border: 1px solid #eee; border-radius: 6px;">
+  <img src="/assets/images/zingto_frame_capture_module_screenshot_3.jpg" alt="both girls jumping at the same time" width="700" style="height: auto; border: 1px solid #eee; border-radius: 6px;">
 </p>
 <p style="color: #6a737d; font-size: 0.9rem; text-align: center; margin-top: -1rem; margin-bottom: 1.5rem;">Figure 6: both girls jumping at the same time</p>
 
