@@ -2,7 +2,7 @@
 layout: default
 title: ZingTo Image Scoring - Image Rating Tool | Professional Image Scoring Software
 description: ZingTo Image Scoring is a local-first AI-powered desktop image rating tool with frame capture and photo-to-video features. Learn tutorials and updates here.
-keywords: ZingTo Image Scoring, Image Rating Tool, AI Image Scoring, Desktop Image Scoring Software, Frame Capture Tool
+keywords: AI Image Scoring, AI Image Rating, Standalone Desktop Image Scoring Application, Desktop AI Image Rating Software, Batch Image Analysis with AI, AI Photo Culling Tool for Desktop, Offline AI Image Rating
 ---
 
 <!-- SEO关键：语义化标签 + 结构化数据 + 基础样式 -->
