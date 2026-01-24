@@ -4,6 +4,9 @@ ZingTo Image Scoring - User Guide
 
 Get the official app by searching for Zingto on the Microsoft Store.
 
+## Related Keywords
+AI Image Scoring, AI Image Rating, Standalone Desktop Image Scoring Application, Desktop AI Image Rating Software, Batch Image Analysis with AI, AI Photo Culling Tool for Desktop, Offline AI Image Rating
+
 📋 Overview
 
 A standalone desktop application for image scoring, frame capture, and photo-to-video creation. Key features:
@@ -145,6 +148,3 @@ User Responsibilities for FFmpeg Mode
 
 Disclaimer: We assume no liability for issues arising from your download, configuration, or use of FFmpeg. For FFmpeg license questions, contact the FFmpeg project directly.
 
-Related Keywords
-
-#ZingtoImageScoring #AIImageScoring #PhotoCullingTool #BatchImageAnalysis #ImageRatingSoftware #AIforPhotographers #DesktopImageScoring
