@@ -87,5 +87,5 @@ If you have further questions about the functions of this module or need assista
 
 ## Keywords
 
-Zingto Image Scoring Software, Frame Capture Module, video frame extraction, image scoring, 4K video frame capture
+Zingto Image Scoring Software, Frame Capture Module, video frame extraction, image scoring, 4K video frame capture, microsoft store
 
