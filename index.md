@@ -146,15 +146,36 @@ keywords: ZingTo, AI Image Scoring, AI Image Rating, Standalone Desktop Image Sc
     <section id="latest-posts">
       <!-- H2标签植入核心关键词，提升权重 -->
       <h2>📝 Latest Posts</h2>
-      {% if site.posts.size > 0 %}
-        {% for post in site.posts limit: 10 %}
+      {% comment %} 1. 筛选并显示置顶的目标博文：Zingto image scoring tutorial {% endcomment %}
+      {% assign featured_post = site.posts | where: "title", "Zingto image scoring tutorial" | first %}
+      {% if featured_post %}
+        <div class="post-item" style="border: 1px solid #e1e4e8; padding: 0.8rem; border-radius: 6px; margin-bottom: 1.5rem;">
+          <a href="{{ site.baseurl }}{{ featured_post.url }}" title="{{ featured_post.title }}">
+            <strong>⭐ {{ featured_post.title }}</strong> <!-- 加星标突出置顶 -->
+          </a>
+          <!-- 显示写作时间，格式：YYYY-MM-DD（可自定义格式） -->
+          <p style="color: #666; font-size: 0.9rem; margin: 0.3rem 0;">
+            Published on: {{ featured_post.date | date: "%Y-%m-%d" }}
+          </p>
+          <p>{{ featured_post.excerpt | strip_html | truncate: 180 }}</p>
+        </div>
+      {% endif %}
+    
+      {% comment %} 2. 显示剩余博文（排除置顶的目标博文） {% endcomment %}
+      {% assign other_posts = site.posts | where_exp: "post", "post.title != 'Zingto image scoring tutorial'" %}
+      {% if other_posts.size > 0 %}
+        {% for post in other_posts limit: 9 %} <!-- 限制总数10篇（置顶1+其他9） -->
           <div class="post-item">
-            <!-- 博文标题超链接：内部链接+关键词锚文本 -->
             <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            <!-- 显示写作时间 -->
+            <p style="color: #666; font-size: 0.9rem; margin: 0.3rem 0;">
+              Published on: {{ post.date | date: "%Y-%m-%d" }}
+            </p>
             <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
           </div>
         {% endfor %}
-      {% else %}
+      {% elsif site.posts.size == 0 %}
+        {% comment %} 3. 无任何博文时的提示 {% endcomment %}
         <p>No blog posts yet. Stay tuned for tutorials and updates on ZingTo Image Scoring!</p>
       {% endif %}
     </section>
