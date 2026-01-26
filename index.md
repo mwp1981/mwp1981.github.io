@@ -47,15 +47,21 @@ keywords: AI Image Scoring, AI Image Rating, Standalone Desktop Image Scoring Ap
 </head>
 <body>
   <!-- 语义化头部：帮助Google识别核心标题+Logo -->
-  <header class="title-container">
-    <h1>
+<header class="title-container">
+  <div style="flex-grow: 1;">
+    <h1 style="margin-bottom: 0.3rem; border-bottom: none;">
       <a href="#software-introduction" style="color: inherit; text-decoration: none;">
-        ZingTo Image Scoring - Image Rating Tool
+        ZingTo Image Scoring
       </a>
     </h1>
-    <!-- Logo添加alt属性（SEO关键：图片可被Google索引） -->
-    <img src="https://mwp1981.github.io/assets/images/kutu.png" alt="ZingTo Image Scoring Logo" class="logo">
-  </header>
+    <p style="color: #666; font-size: 1.1rem; margin-top: 0; font-style: italic;">
+      Professional AI-Powered Image Rating & Analysis Desktop Software
+    </p>
+  </div>
+  <img src="https://mwp1981.github.io/assets/images/kutu.png" 
+       alt="ZingTo Image Scoring Logo - AI Image Rating Software, Batch Photo Analysis Tool, Desktop Image Scoring Application" 
+       class="logo">
+</header>
 
   <!-- 快速导航菜单 -->
   <div style="margin: 1rem 0; padding: 0.5rem; background: #f6f8fa;">
