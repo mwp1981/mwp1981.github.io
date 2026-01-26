@@ -83,8 +83,8 @@ keywords: ZingTo, AI Image Scoring, AI Image Rating, Standalone Desktop Image Sc
     .post-item { margin: 1.5rem 0; padding-bottom: 1rem; border-bottom: 1px solid #eee; }
     .logo { height: 3.6rem; width: auto; margin-left: 1rem; }
     .title-container { display: flex; justify-content: space-between; align-items: center; margin: 2rem 0; }
-    /* 面包屑样式优化 */
-    .breadcrumb { list-style: none; padding: 0; display: flex; gap: 0.5rem; margin: 1rem 0; }
+    /* 面包屑样式优化：添加display: none隐藏显示，保留SEO价值 */
+    .breadcrumb { list-style: none; padding: 0; display: flex; gap: 0.5rem; margin: 1rem 0; display: none; }
     .breadcrumb li a { color: #0366d6; }
     .breadcrumb li:last-child { color: #666; }
   </style>
@@ -105,7 +105,7 @@ keywords: ZingTo, AI Image Scoring, AI Image Rating, Standalone Desktop Image Sc
   <img src="https://mwp1981.github.io/assets/images/kutu.png" alt="ZingTo Image Scoring Logo" class="logo">
 </header>
 
-<!-- 面包屑导航+结构化数据，提升站点层级理解 -->
+<!-- 保留面包屑HTML+结构化数据（隐藏显示），保留SEO价值 -->
 <nav aria-label="Breadcrumb">
   <ol class="breadcrumb">
     <li><a href="/">Home</a></li>
@@ -113,7 +113,6 @@ keywords: ZingTo, AI Image Scoring, AI Image Rating, Standalone Desktop Image Sc
     <li aria-current="page">ZingTo Image Scoring</li>
   </ol>
 </nav>
-<!-- 面包屑结构化数据 -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -135,19 +134,18 @@ keywords: ZingTo, AI Image Scoring, AI Image Rating, Standalone Desktop Image Sc
 }
 </script>
 
-  <!-- 快速导航菜单 -->
+  <!-- 快速导航菜单：删除Latest Posts链接 -->
   <div style="margin: 1rem 0; padding: 0.5rem; background: #f6f8fa;">
     Quick Navigation: 
-    <a href="#latest-posts">Latest Posts</a> | 
     <a href="#software-introduction">Software Introduction & Download</a>
   </div>
 
   <!-- 主内容区：语义化标签，Google优先抓取 -->
   <main>
-    <!-- 最新博文模块（恢复超链接，内部链接提升SEO） -->
+    <!-- 最新博文模块（保留模块，仅删除导航链接） -->
     <section id="latest-posts">
       <!-- H2标签植入核心关键词，提升权重 -->
-      <h2>📝 Latest Posts | ZingTo AI Image Scoring Tutorials & Updates</h2>
+      <h2>📝 Latest Posts</h2>
       {% if site.posts.size > 0 %}
         {% for post in site.posts limit: 10 %}
           <div class="post-item">
