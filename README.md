@@ -4,6 +4,11 @@ ZingTo Image Scoring - User Guide
 
 Get the official app by searching for Zingto on the Microsoft Store.
 
+<p style="text-align: center; margin: 1.5rem 0;">
+  <img src="/assets/images/picscoredesc.png" alt="picscoredesc" width="700" style="height: auto; border: 1px solid #eee; border-radius: 6px;">
+</p>
+<p style="color: #6a737d; font-size: 0.9rem; text-align: center; margin-top: -1rem; margin-bottom: 1.5rem;">ui main window</p>
+
 📋 Overview
 
 A standalone desktop application for image scoring, frame capture, and photo-to-video creation. Key features:
