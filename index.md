@@ -48,15 +48,26 @@ keywords: AI Image Scoring, AI Image Rating, Standalone Desktop Image Scoring Ap
 <body>
   <!-- 语义化头部：帮助Google识别核心标题+Logo -->
   <header class="title-container">
-    <h1>ZingTo Image Scoring - Image Rating Tool</h1>
+    <h1>
+      <a href="#software-introduction" style="color: inherit; text-decoration: none;">
+        ZingTo Image Scoring - Image Rating Tool
+      </a>
+    </h1>
     <!-- Logo添加alt属性（SEO关键：图片可被Google索引） -->
     <img src="https://mwp1981.github.io/assets/images/kutu.png" alt="ZingTo Image Scoring Logo" class="logo">
   </header>
 
+  <!-- 快速导航菜单 -->
+  <div style="margin: 1rem 0; padding: 0.5rem; background: #f6f8fa;">
+    Quick Navigation: 
+    <a href="#latest-posts">Latest Posts</a> | 
+    <a href="#software-introduction">Software Introduction</a>
+  </div>
+
   <!-- 主内容区：语义化标签，Google优先抓取 -->
   <main>
     <!-- 最新博文模块（恢复超链接，内部链接提升SEO） -->
-    <section>
+    <section id="latest-posts">
       <h2>📝 Latest Blog Posts</h2>
       {% if site.posts.size > 0 %}
         {% for post in site.posts limit: 10 %}
@@ -72,7 +83,7 @@ keywords: AI Image Scoring, AI Image Rating, Standalone Desktop Image Scoring Ap
     </section>
 
     <!-- 软件介绍模块（核心内容，植入关键词） -->
-    <section>
+    <section id="software-introduction">
       <h2>📖 Software Introduction</h2>
       {% assign readme_file = site.static_files | where: "name", "README.md" | first %}
       {% if readme_file %}
@@ -92,7 +103,10 @@ keywords: AI Image Scoring, AI Image Rating, Standalone Desktop Image Scoring Ap
   <!-- 页脚：补充联系/版权，提升信任度 -->
   <footer style="margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #eee; text-align: center;">
     <p>© 2026 ZingTo Image Scoring - All Rights Reserved</p>
-    <p><a href="https://mwp1981.github.io/">Home</a></p>
+    <p>
+      <a href="#top">Back to Top</a> | 
+      <a href="https://mwp1981.github.io/">Home</a>
+    </p>
   </footer>
 </body>
 </html>
