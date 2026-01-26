@@ -102,12 +102,7 @@ keywords: ZingTo, AI Image Scoring, AI Image Rating, Standalone Desktop Image Sc
       Professional AI-Powered Photo Rating & Analysis Desktop Software
     </p>
   </div>
-  <!-- 图片添加尺寸/懒加载，优化alt文本聚焦核心词 -->
-  <img src="https://mwp1981.github.io/assets/images/kutu.png" 
-       alt="ZingTo Image Scoring Logo - AI Image Scoring & Rating Standalone Desktop Application for Photographers" 
-       class="logo"
-       width="144" height="144" <!-- 补充实际尺寸，消除CLS布局偏移 -->
-       loading="lazy"> <!-- 懒加载，提升Core Web Vitals -->
+  <img src="https://mwp1981.github.io/assets/images/kutu.png" alt="ZingTo Image Scoring Logo" class="logo">
 </header>
 
 <!-- 面包屑导航+结构化数据，提升站点层级理解 -->
