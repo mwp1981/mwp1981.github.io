@@ -67,7 +67,7 @@ keywords: zingto, photo rating software, image selection tool, batch photo analy
   <div style="margin: 1rem 0; padding: 0.5rem; background: #f6f8fa;">
     Quick Navigation: 
     <a href="#latest-posts">Latest Posts</a> | 
-    <a href="#software-introduction">Software Introduction&Downdload</a>
+    <a href="#software-introduction">Software Introduction & Download</a>
   </div>
 
   <!-- 主内容区：语义化标签，Google优先抓取 -->
