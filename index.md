@@ -1,8 +1,8 @@
 ---
 layout: default
-title: ZingTo Image Scoring - Image Rating Tool | Professional Image Scoring Software
+title: ZingTo Image Scoring - AI Photo Rating & Analysis Software | Professional Image Scoring Tool
 description: ZingTo Image Scoring is a local-first AI-powered desktop image rating tool with frame capture and photo-to-video features. Learn tutorials and updates here.
-keywords: AI Image Scoring, AI Image Rating, Standalone Desktop Image Scoring Application, Desktop AI Image Rating Software, Batch Image Analysis with AI, AI Photo Culling Tool for Desktop, Offline AI Image Rating
+keywords: zingto, photo rating software, image selection tool, batch photo analysis, desktop image scoring, offline photo management, aesthetic evaluation, photography workflow tool, image quality assessment
 ---
 
 <!-- SEO关键：语义化标签 + 结构化数据 + 基础样式 -->
@@ -55,11 +55,11 @@ keywords: AI Image Scoring, AI Image Rating, Standalone Desktop Image Scoring Ap
       </a>
     </h1>
     <p style="color: #666; font-size: 1.1rem; margin-top: 0; font-style: italic;">
-      Professional AI-Powered Image Rating & Analysis Desktop Software
+      Professional AI-Powered Photo Rating & Analysis Desktop Software
     </p>
   </div>
   <img src="https://mwp1981.github.io/assets/images/kutu.png" 
-       alt="ZingTo Image Scoring Logo - AI Image Rating Software, Batch Photo Analysis Tool, Desktop Image Scoring Application" 
+       alt="ZingTo Image Scoring Logo - Professional AI Photo Rating Software, Batch Image Analysis Tool, Desktop Image Scoring Application" 
        class="logo">
 </header>
 
@@ -91,6 +91,12 @@ keywords: AI Image Scoring, AI Image Rating, Standalone Desktop Image Scoring Ap
     <!-- 软件介绍模块（核心内容，植入关键词） -->
     <section id="software-introduction">
       <h2>📖 Software Introduction</h2>
+      
+      <!-- 简洁的引言，不过度堆砌关键词 -->
+      <p style="font-size: 1.1rem; margin-bottom: 2rem; color: #555; line-height: 1.7;">
+        ZingTo Image Scoring is a professional desktop application designed for photographers and content creators who need to efficiently manage and rate large image collections. Using AI-powered analysis, it helps streamline your photography workflow with batch processing capabilities.
+      </p>
+      
       {% assign readme_file = site.static_files | where: "name", "README.md" | first %}
       {% if readme_file %}
         {% capture readme_content %}{% include_relative README.md %}{% endcapture %}
