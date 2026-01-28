@@ -1,52 +1,13 @@
-# ===================== 基础站点配置（SEO核心） =====================
-title: ZingTo Image Scoring - AI Image Rating Desktop App
+title: ZingTo Image Scoring - Image Rating Tool
 email: 38413103@qq.com
-description: "ZingTo Image Scoring: Standalone desktop software for AI-powered photo rating and batch image analysis. Local-first, privacy-focused processing."
+description: "Official Blog of ZingTo Image Scoring: A local-first, AI-powered desktop image rating software with video frame extraction and photo-to-video features, available on Microsoft Store."
 baseurl: ""
 url: "https://mwp1981.github.io"
-
-# ===================== 主题与插件配置 =====================
-# 注释掉theme，避免覆盖自定义布局（核心优化）
-# theme: minima
-
-# GitHub Pages默认支持的插件（无需额外安装，直接生效）
+theme: minima
 plugins:
-  - jekyll-seo-tag    # 自动生成SEO/OG/Twitter标签
-  - jekyll-sitemap   # 自动生成sitemap.xml
-  - jekyll-feed      # 可选：自动生成RSS订阅
+  - jekyll-feed
 
-# ===================== 补充优化配置 =====================
-# 站点语言（jekyll-seo-tag会生成<html lang="en-US">）
-lang: en-US
-# 时区设置（避免sitemap/博文时间时区偏差）
-timezone: Asia/Shanghai
-
-# ===================== Markdown处理器配置 =====================
-# 与GitHub Pages环境保持一致，避免解析差异
-markdown: kramdown
-highlighter: rouge
-
-# ===================== 自定义业务配置 =====================
-# 页面中可通过 {{ site.software.name }} 等方式调用
 software:
   name: ZingTo Image Scoring
   download: "Search 'Zingto' on Microsoft Store"
-  core_modules: 
-    - AI Image Quality Scoring
-    - Video Frame Capture
-    - MelodyFrame Photo to Video
-    - Batch Image Analysis
-    - Offline Processing
-
-# ===================== SEO增强配置（jekyll-seo-tag专属） =====================
-# Twitter/X卡片配置（自动生成twitter:*标签）
-twitter:
-  username: Zingto1981
-  card: summary_large_image  # 适配大图展示，提升社交分享效果
-
-# 社交媒体关联（自动生成og:sameAs、结构化数据sameAs）
-social:
-  name: ZingTo Image Scoring
-  links:
-    - https://www.youtube.com/@Zingto1981
-    - https://x.com/Zingto1981
+  core_modules: ["Image Quality Scoring", "Video Frame Capture", "MelodyFrame Photo to Video"]
