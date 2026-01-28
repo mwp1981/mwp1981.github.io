@@ -14,34 +14,13 @@ keywords: ZingTo, AI Image Scoring, AI Image Rating, Standalone Desktop Image Sc
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <!-- 添加robots标签，明确指引爬虫抓取策略 -->
   <meta name="robots" content="index, follow">
-  <!-- SEO核心Meta标签：Google优先抓取 -->
-  <title>{{ page.title }}</title>
-  <meta name="description" content="{{ page.description }}">
-  <meta name="keywords" content="{{ page.keywords }}">
   <!-- 规范链接：避免重复内容（GitHub Pages多域名风险） -->
   <link rel="canonical" href="https://mwp1981.github.io/">
 
-  <!-- Open Graph（适配所有社交平台：Facebook/LinkedIn/YouTube/X分享等） -->
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="{{ page.description }}">
-  <meta property="og:type" content="software">
-  <meta property="og:url" content="https://mwp1981.github.io/">
-  <meta property="og:image" content="https://mwp1981.github.io/assets/images/kutu.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:site_name" content="ZingTo Image Scoring">
-  <!-- 关联YouTube频道（你的真实地址） -->
-  <meta property="og:see_also" content="https://www.youtube.com/@Zingto1981">
+  <!-- 核心：通过jekyll-seo-tag插件自动生成规范的SEO标签（替代手动重复的meta/og/twitter标签） -->
+  {% seo %}
 
-  <!-- X（原Twitter）Card标签（替换为你的真实账号） -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="{{ page.description }}">
-  <meta name="twitter:image" content="https://mwp1981.github.io/assets/images/kutu.png">
-  <!-- 你的X账号地址 -->
-  <meta name="twitter:creator" content="@Zingto1981">
-
-  <!-- 升级结构化数据为SoftwareApplication，触发Google软件类富摘要（关联YouTube/X账号） -->
+  <!-- 保留：SoftwareApplication结构化数据（插件不会生成，是Google软件类富摘要的核心） -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
