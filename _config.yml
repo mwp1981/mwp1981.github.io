@@ -1,13 +1,33 @@
-title: ZingTo Image Scoring - Image Rating Tool
+title: ZingTo Image Scoring - AI Image Rating Desktop App
 email: 38413103@qq.com
-description: "Official Blog of ZingTo Image Scoring: A local-first, AI-powered desktop image rating software with video frame extraction and photo-to-video features, available on Microsoft Store."
+description: "Standalone desktop application for photographers. Get AI image scoring, batch analysis, and photo rating with local-first offline processing."
 baseurl: ""
-url: "https://mwp1981.github.io"
-theme: minima
+url: "https://mwp1981.github.io" # 无尾斜杠，避免canonical链接错误
+
+# 注释掉主题，保留自定义布局
+# theme: minima
+
+# 核心SEO插件（GitHub Pages官方支持）
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
+# 基础配置
+timezone: Asia/Shanghai
+lang: en-US
+markdown: kramdown
+highlighter: rouge
+
+# 软件相关配置（供页面调用）
 software:
   name: ZingTo Image Scoring
   download: "Search 'Zingto' on Microsoft Store"
   core_modules: ["Image Quality Scoring", "Video Frame Capture", "MelodyFrame Photo to Video"]
+
+# 社交媒体配置（jekyll-seo-tag会自动生成og/twitter相关标签）
+social:
+  name: ZingTo Image Scoring
+  links:
+    - https://www.youtube.com/@Zingto1981
+    - https://x.com/Zingto1981
