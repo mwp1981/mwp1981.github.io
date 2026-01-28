@@ -1,5 +1,4 @@
 ---
-# 聚焦核心关键词，精简冗余词（jekyll-seo-tag会读取这些配置生成SEO标签）
 layout: default
 title: ZingTo Image Scoring - AI Image Scoring & Rating | Standalone Desktop App for Photographers
 description: "ZingTo Image Scoring: Standalone desktop software for AI-powered photo rating and batch image analysis. Local-first, privacy-focused processing for Windows 10 and later."
