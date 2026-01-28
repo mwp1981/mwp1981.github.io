@@ -48,7 +48,7 @@ keywords: ZingTo, AI Image Scoring, AI Image Rating, Standalone Desktop Image Sc
     "@type": "SoftwareApplication",
     "name": "ZingTo Image Scoring",
     "applicationCategory": "Photography",
-    "operatingSystem": "Windows, macOS",
+    "operatingSystem": "Windows",
     "url": "https://mwp1981.github.io/",
     "description": "{{ page.description }}",
     "featureList": [
