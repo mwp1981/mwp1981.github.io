@@ -89,7 +89,7 @@
 }
 </script>
 
-<!-- 基础样式：修复面包屑换行+图片显示问题 -->
+<!-- 基础样式：彻底修复面包屑换行 + 图片显示 -->
 <style>
   body { font-family: Arial, sans-serif; line-height: 1.8; color: #333; max-width: 900px; margin: 0 auto; padding: 1rem; }
   h1, h2 { color: #24292e; border-bottom: 1px solid #eee; padding-bottom: 0.5rem; }
@@ -98,19 +98,26 @@
   .post-item { margin: 1.5rem 0; padding-bottom: 1rem; border-bottom: 1px solid #eee; }
   .logo { height: 3.6rem; width: auto; margin-left: 1rem; }
   .title-container { display: flex; justify-content: space-between; align-items: center; margin: 2rem 0; }
-  /* 修复面包屑换行+显示问题 */
+  
+  /* 彻底修复面包屑换行：伪元素做分隔符 + 强制一行显示 */
   .breadcrumb { 
     list-style: none; 
     padding: 0; 
-    display: flex; 
-    gap: 0; 
     margin: 1rem 0; 
-    flex-wrap: nowrap; 
-    overflow: hidden; 
-    font-size: 0.9rem; 
+    display: flex; 
+    white-space: nowrap; /* 强制所有内容一行 */
+    overflow-x: auto; /* 小屏幕横向滚动，不换行 */
+    -webkit-overflow-scrolling: touch; /* 移动端顺滑滚动 */
+    font-size: 0.9rem;
   }
-  .breadcrumb li { 
-    white-space: nowrap; 
+  .breadcrumb li {
+    display: inline-block;
+  }
+  /* 给第一个li后加分隔符，替代独立标签 */
+  .breadcrumb li:first-child::after {
+    content: "/";
+    margin: 0 0.5rem;
+    color: #666;
   }
   .breadcrumb li a { color: #0366d6; }
   .breadcrumb li:last-child { color: #666; }
