@@ -27,14 +27,6 @@ keywords: ZingTo, AI Image Scoring, AI Image Rating, Standalone Desktop Image Sc
   >
 </header>
 
-<!-- 彻底修复面包屑换行：移除独立分隔符li，仅保留2个核心li -->
-<nav aria-label="Breadcrumb">
-  <ol class="breadcrumb">
-    <li><a href="/">Home</a></li>
-    <li aria-current="page">ZingTo Image Scoring</li>
-  </ol>
-</nav>
-
 <!-- 快速导航菜单：删除Latest Posts链接 -->
 <div style="margin: 1rem 0; padding: 0.5rem; background: #f6f8fa;">
   Quick Navigation: 
