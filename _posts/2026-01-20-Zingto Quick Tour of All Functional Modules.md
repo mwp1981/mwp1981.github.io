@@ -1,7 +1,7 @@
 ---
 # 适配SEO的Front Matter（核心关键词全覆盖，无冗余）
 layout: post
-title: "Zingto Image Scoring: Extract High-Score Frames from Landscape Videos | Full Demo"
+title: "Extract High-Score Frames from Landscape Videos | Full Demo"
 date: 2026-01-20 11:00:00  # 可按实际发布日期修改，格式固定
 updated_at: 2026-01-29 16:20:00  # 初始发布与date一致，后续更新同步修改
 description: "Learn how to extract high-score frames from landscape videos with Zingto Image Scoring. This full demo covers frame capture, batch scoring, and short video generation—local processing, easy to use."
