@@ -6,24 +6,21 @@ description: ZingTo Image Scoring is a local-first, standalone AI desktop applic
 keywords: ZingTo, AI Image Scoring, AI Image Rating, Standalone Desktop Image Scoring Application, Desktop AI Image Rating Software, Batch Image Analysis, Offline AI Photo Rating, Image Quality Assessment for Photographers
 ---
 
-<!-- 语义化头部：帮助Google识别核心标题+Logo -->
+<!-- 语义化头部：调整flex布局确保标题和图片同行显示 -->
 <header class="title-container">
-  <div style="flex-grow: 1;">
-    <h1 style="margin-bottom: 0.3rem; border-bottom: none;">
+  <div style="flex-grow: 1; display: flex; align-items: center;"> <!-- 新增内层flex，确保h1垂直居中 -->
+    <h1 style="margin-bottom: 0; border-bottom: none; margin: 0;"> <!-- 移除底部外边距，消除换行间隙 -->
       <a href="#software-introduction" style="color: inherit; text-decoration: none;">
         ZingTo Image Scoring
       </a>
     </h1>
-    <p style="color: #666; font-size: 1.1rem; margin-top: 0; font-style: italic;">
-      Professional AI-Powered Photo Rating & Analysis Desktop Software
-    </p>
   </div>
-  <!-- 修复图片显示：简化标签+新增样式保证显示 -->
+  <!-- 调整图片样式：移除display:block，改为inline-block，确保和标题同行 -->
   <img 
     src="/assets/images/kutu.png" 
     alt="ZingTo Image Scoring Logo - AI Image Rating Desktop Software for Photographers" 
     class="logo" 
-    style="height: 3.6rem; width: auto; margin-left: 1rem; display: block; object-fit: contain;"
+    style="height: 3.6rem; width: auto; margin-left: 1rem; display: inline-block; object-fit: contain; vertical-align: middle;"
   >
 </header>
 
