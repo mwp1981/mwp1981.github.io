@@ -3,6 +3,7 @@
 layout: post
 title: "Zingto image scoring tutorial"
 seo.title: "Zingto image scoring tutorial"
+title_separator: ""  # 新增这行，取消拼接的分隔符和后缀
 date: 2026-01-19 19:30:00  # 发布时间（可按实际发布日期修改，格式固定）
 updated_at: 2026-01-29 15:40:00  # 初始发布与date一致，后续更新时同步修改
 description: "Learn how to use Zingto Image Scoring for batch photo selection with Pixabay free stock images. This tutorial simplifies AI-powered photo culling for photographers and content creators."
