@@ -1,4 +1,15 @@
-# Zingto Image Scoring Software - Frame Capture Module Operation Guide
+---
+# 适配SEO的Front Matter（核心关键词全覆盖，贴合博文主题）
+layout: post
+title: "Zingto Image Scoring: Frame Capture Module Operation Guide | 4K Video Frame Extraction"
+date: 2026-02-03 10:30:00  # 可按实际发布日期修改，格式固定
+updated_at: 2026-02-03 10:30:00  # 初始发布与date一致，后续更新同步修改
+description: "A detailed operation guide for the Frame Capture module in Zingto Image Scoring. Learn to extract and screen 4K video frames with step-by-step instructions and practical demos."
+keywords: "Zingto Image Scoring Software, Frame Capture Module, video frame extraction, image scoring, 4K video frame capture, Microsoft Store"
+categories: [Photography, AI Image Scoring]  # 固定核心分类，提升归类权重
+tags: [Zingto, Frame Capture, 4K Video Frames, Image Scoring, Video Frame Extraction]  # 精准匹配博文核心场景
+---
+
 This article will demonstrate the detailed functions and operation process of the "Frame Capture" module in the Zingto Image Scoring Software step by step. The tutorial will use a 4K video (file name: mixkit-friends-with-colored-smoke-bombs-4556-4k.mp4) provided by the free video website Mixkit as the practical video source to help you quickly master the core usage of the module.
 
 ## I. Description of Video Source and Objectives
@@ -84,8 +95,3 @@ After the frame capture is completed, switch to the "Image Scoring" module tab, 
 The above is the complete practical operation process of frame capture and image scoring in Zingto software. By reasonably configuring frame capture parameters (especially high-frequency capture mode and capture interval), you can accurately capture key moments in the video, and quickly screen out the optimal frame images combined with the automatic scoring function.
 
 If you have further questions about the functions of this module or need assistance during the operation, please feel free to leave a message for communication, and I will reply to you in a timely manner!
-
-## Keywords
-
-Zingto Image Scoring Software, Frame Capture Module, video frame extraction, image scoring, 4K video frame capture, microsoft store
-
