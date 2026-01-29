@@ -18,19 +18,20 @@ keywords: ZingTo, AI Image Scoring, AI Image Rating, Standalone Desktop Image Sc
       Professional AI-Powered Photo Rating & Analysis Desktop Software
     </p>
   </div>
-  <!-- 优化图片：适配WebP格式，提升加载速度；优化alt文本植入核心关键词 -->
-  <picture>
-    <source srcset="/assets/images/kutu.webp" type="image/webp">
-    <source srcset="/assets/images/kutu.png" type="image/png">
-    <img src="/assets/images/kutu.png" alt="ZingTo Image Scoring Logo - AI Image Rating Desktop Software for Photographers" class="logo" width="120" height="120">
-  </picture>
+  <!-- 修复图片显示：简化标签+新增样式保证显示 -->
+  <img 
+    src="/assets/images/kutu.png" 
+    alt="ZingTo Image Scoring Logo - AI Image Rating Desktop Software for Photographers" 
+    class="logo" 
+    style="height: 3.6rem; width: auto; margin-left: 1rem; display: block; object-fit: contain;"
+  >
 </header>
 
-<!-- 保留面包屑HTML（隐藏显示），保留SEO价值 -->
+<!-- 修复面包屑换行：重构HTML结构（分隔符嵌入li） -->
 <nav aria-label="Breadcrumb">
   <ol class="breadcrumb">
     <li><a href="/">Home</a></li>
-    <li>/</li>
+    <li style="position: relative; padding: 0 0.5rem;">/</li>
     <li aria-current="page">ZingTo Image Scoring</li>
   </ol>
 </nav>
