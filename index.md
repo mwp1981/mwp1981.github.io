@@ -6,21 +6,21 @@ description: ZingTo Image Scoring is a local-first, standalone AI desktop applic
 keywords: ZingTo, AI Image Scoring, AI Image Rating, Standalone Desktop Image Scoring Application, Desktop AI Image Rating Software, Batch Image Analysis, Offline AI Photo Rating, Image Quality Assessment for Photographers
 ---
 
-<!-- 语义化头部：调整flex布局确保标题和图片同行显示 -->
-<header class="title-container">
-  <div style="flex-grow: 1; display: flex; align-items: center;"> <!-- 新增内层flex，确保h1垂直居中 -->
-    <h1 style="margin-bottom: 0; border-bottom: none; margin: 0;"> <!-- 移除底部外边距，消除换行间隙 -->
+<!-- 语义化头部：强制flex布局，确保标题+图片同行 -->
+<header class="title-container" style="display: flex !important; align-items: center !important; flex-wrap: nowrap !important; width: 100%; margin: 2rem 0;">
+  <!-- 标题容器：不占满宽度，强制行内显示 -->
+  <div style="flex: 1; white-space: nowrap;">
+    <h1 style="display: inline-block !important; margin: 0 !important; border-bottom: none !important; font-size: 1.5rem;">
       <a href="#software-introduction" style="color: inherit; text-decoration: none;">
         ZingTo Image Scoring
       </a>
     </h1>
   </div>
-  <!-- 调整图片样式：移除display:block，改为inline-block，确保和标题同行 -->
+  <!-- Logo图片：强制行内，垂直居中 -->
   <img 
     src="/assets/images/kutu.png" 
     alt="ZingTo Image Scoring Logo - AI Image Rating Desktop Software for Photographers" 
-    class="logo" 
-    style="height: 3.6rem; width: auto; margin-left: 1rem; display: inline-block; object-fit: contain; vertical-align: middle;"
+    style="height: 3.6rem; width: auto; margin-left: 1rem !important; display: inline-block !important; vertical-align: middle !important;"
   >
 </header>
 
