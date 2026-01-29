@@ -1,7 +1,7 @@
 ---
 # 聚焦核心关键词（ImageScoring/ImageRating/AI/Standalone Desktop），精简冗余词
 layout: default
-title: ZingTo Image Scoring - AI Image Scoring & Rating | Standalone Desktop App for Photographers
+title: ZingTo Image Scoring - AI Photo Rating Standalone Desktop App for Photographers
 description: ZingTo Image Scoring is a local-first, standalone AI desktop application for photographers. Get professional AI image scoring, batch image analysis & photo rating to streamline your photography workflow.
 keywords: ZingTo, AI Image Scoring, AI Image Rating, Standalone Desktop Image Scoring Application, Desktop AI Image Rating Software, Batch Image Analysis, Offline AI Photo Rating, Image Quality Assessment for Photographers
 ---
