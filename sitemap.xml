@@ -9,7 +9,8 @@
   {% for post in site.posts %}
   <url>
     <loc>https://mwp1981.github.io{{ post.url }}</loc>
-    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    <!-- 优先使用更新时间，无则使用发布时间，提升时间戳精准度 -->
+    <lastmod>{{ post.updated_at | default: post.date | date_to_xmlschema }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
