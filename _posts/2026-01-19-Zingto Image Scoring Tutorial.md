@@ -1,7 +1,7 @@
 ---
 # Front Matter（SEO核心配置，贴合博文主题+关键词）
 layout: post
-title: "Zingto Image Scoring Tutorial: AI-Powered Photo Selection with Free Stock Images | Zingto"
+title: "Zingto image scoring tutorial"
 date: 2026-01-19 19:30:00  # 发布时间（可按实际发布日期修改，格式固定）
 updated_at: 2026-01-29 15:40:00  # 初始发布与date一致，后续更新时同步修改
 description: "Learn how to use Zingto Image Scoring for batch photo selection with Pixabay free stock images. This tutorial simplifies AI-powered photo culling for photographers and content creators."
