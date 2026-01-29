@@ -6,21 +6,19 @@ description: ZingTo Image Scoring is a local-first, standalone AI desktop applic
 keywords: ZingTo, AI Image Scoring, AI Image Rating, Standalone Desktop Image Scoring Application, Desktop AI Image Rating Software, Batch Image Analysis, Offline AI Photo Rating, Image Quality Assessment for Photographers
 ---
 
-<!-- 语义化头部：强制flex布局，确保标题+图片同行 -->
-<header class="title-container" style="display: flex !important; align-items: center !important; flex-wrap: nowrap !important; width: 100%; margin: 2rem 0;">
-  <!-- 标题容器：不占满宽度，强制行内显示 -->
-  <div style="flex: 1; white-space: nowrap;">
-    <h1 style="display: inline-block !important; margin: 0 !important; border-bottom: none !important; font-size: 1.5rem;">
-      <a href="#software-introduction" style="color: inherit; text-decoration: none;">
-        ZingTo Image Scoring
-      </a>
-    </h1>
-  </div>
-  <!-- Logo图片：强制行内，垂直居中 -->
+<!-- 核心修改：极简Flex布局，H1和图片直接作为同级子元素，强制同行 -->
+<header style="display: flex !important; align-items: center !important; flex-wrap: nowrap !important; width: 100%; margin: 2rem 0; padding: 0;">
+  <!-- 标题：无任何外层包裹，直接作为Flex子元素1 -->
+  <h1 style="margin: 0 !important; padding: 0 !important; border: none !important; white-space: nowrap !important; font-size: 1.8rem; line-height: 3.6rem;">
+    <a href="#software-introduction" style="color: inherit; text-decoration: none;">
+      ZingTo Image Scoring
+    </a>
+  </h1>
+  <!-- 图片：直接作为Flex子元素2，和H1同级 -->
   <img 
     src="/assets/images/kutu.png" 
     alt="ZingTo Image Scoring Logo - AI Image Rating Desktop Software for Photographers" 
-    style="height: 3.6rem; width: auto; margin-left: 1rem !important; display: inline-block !important; vertical-align: middle !important;"
+    style="height: 3.6rem; width: auto; margin: 0 0 0 1.5rem !important; padding: 0 !important; display: inline-block !important; object-fit: contain;"
   >
 </header>
 
