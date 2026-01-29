@@ -2,8 +2,8 @@
 # 适配SEO的Front Matter（核心关键词全覆盖，贴合博文主题）
 layout: post
 title: "Zingto Image Scoring: Frame Capture Module Operation Guide | 4K Video Frame Extraction"
-date: 2026-02-03 10:30:00  # 可按实际发布日期修改，格式固定
-updated_at: 2026-02-03 10:30:00  # 初始发布与date一致，后续更新同步修改
+date: 2026-01-24 10:30:00  # 可按实际发布日期修改，格式固定
+updated_at: 2026-01-29 16:40:00  # 初始发布与date一致，后续更新同步修改
 description: "A detailed operation guide for the Frame Capture module in Zingto Image Scoring. Learn to extract and screen 4K video frames with step-by-step instructions and practical demos."
 keywords: "Zingto Image Scoring Software, Frame Capture Module, video frame extraction, image scoring, 4K video frame capture, Microsoft Store"
 categories: [Photography, AI Image Scoring]  # 固定核心分类，提升归类权重
