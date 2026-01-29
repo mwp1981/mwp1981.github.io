@@ -27,11 +27,10 @@ keywords: ZingTo, AI Image Scoring, AI Image Rating, Standalone Desktop Image Sc
   >
 </header>
 
-<!-- 修复面包屑换行：重构HTML结构（分隔符嵌入li） -->
+<!-- 彻底修复面包屑换行：移除独立分隔符li，仅保留2个核心li -->
 <nav aria-label="Breadcrumb">
   <ol class="breadcrumb">
     <li><a href="/">Home</a></li>
-    <li style="position: relative; padding: 0 0.5rem;">/</li>
     <li aria-current="page">ZingTo Image Scoring</li>
   </ol>
 </nav>
